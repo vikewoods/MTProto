@@ -59,9 +59,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MTProto\MTProto.csproj">
-      <Project>{d84aff49-b56d-4b62-b74b-14e8e5723bf1}</Project>
-      <Name>MTProto</Name>
+    <ProjectReference Include="..\DiffieHellman\Mono.Stub.csproj">
+      <Project>{51a5db78-bddf-466d-911d-fcd600413726}</Project>
+      <Name>Mono.Stub</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MTProto Class Api\MTProto Class Api.csproj">
+      <Project>{b23856f6-04c8-4012-bab9-68e480a73379}</Project>
+      <Name>MTProto Class Api</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

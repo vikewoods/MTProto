@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
-using MTProto;
+using MTProto_Class_Api;
+using Mono.Math;
 
 namespace MTProto_Console
 {
