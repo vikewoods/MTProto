@@ -5,16 +5,28 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTProto", "MTProto\MTProto.csproj", "{D84AFF49-B56D-4B62-B74B-14E8E5723BF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTProto Console", "MTProto Console\MTProto Console.csproj", "{3CAAC47E-1C80-4AB6-A8D8-ADA57637646E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		MTProto API|Any CPU = MTProto API|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D84AFF49-B56D-4B62-B74B-14E8E5723BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D84AFF49-B56D-4B62-B74B-14E8E5723BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84AFF49-B56D-4B62-B74B-14E8E5723BF1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D84AFF49-B56D-4B62-B74B-14E8E5723BF1}.MTProto API|Any CPU.ActiveCfg = MTProto API|Any CPU
+		{D84AFF49-B56D-4B62-B74B-14E8E5723BF1}.MTProto API|Any CPU.Build.0 = MTProto API|Any CPU
 		{D84AFF49-B56D-4B62-B74B-14E8E5723BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84AFF49-B56D-4B62-B74B-14E8E5723BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CAAC47E-1C80-4AB6-A8D8-ADA57637646E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAAC47E-1C80-4AB6-A8D8-ADA57637646E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAAC47E-1C80-4AB6-A8D8-ADA57637646E}.MTProto API|Any CPU.ActiveCfg = MTProto API|Any CPU
+		{3CAAC47E-1C80-4AB6-A8D8-ADA57637646E}.MTProto API|Any CPU.Build.0 = MTProto API|Any CPU
+		{3CAAC47E-1C80-4AB6-A8D8-ADA57637646E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAAC47E-1C80-4AB6-A8D8-ADA57637646E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
